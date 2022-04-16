@@ -26,6 +26,8 @@ I've used **Microsoft Visual Studio 2022** to develop and build the application.
 
 **TidalDiscord** uses .NET Desktop Runtime 6+. If required, [download](https://dotnet.microsoft.com/en-us/download/dotnet/6.0/runtime) and install it directly from Microsoft.
 
+The installer is build using [NSIS](https://nsis.sourceforge.io/Main_Page) with [NsProcess](https://nsis.sourceforge.io/NsProcess_plugin) plugin.
+
 ### How to use TidalDiscord
 
 Once run, **TidalDiscord** runs hidden on the desktop, and sets a blue Tidal icon on the taskbar tray. Clicking on it opens the app main window, which display TIDAL player status and current playing track, and also Discord client status and current user.
